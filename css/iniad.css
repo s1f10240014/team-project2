@@ -1,3 +1,16 @@
 #rogo{
-    width: 10%;
+    width: 5%;
+}
+#w{
+    text-align: center;
+}
+dt{
+    float: left;
+}
+
+dt::after{
+    content:":" ;
+}
+dl{
+    margin-left:30px ;
 }
