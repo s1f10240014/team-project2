@@ -1,3 +1,41 @@
-body{
-    color:red;
+body {
+    font-family:sans-serif;
+}
+
+.hyoushigazo img {
+    min-height: 100%;
+    background-image: /*hyousi_gazou.jpg*/;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: #F4F4F4;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar h2 {
+    text-align: center;
+}
+.sidebar a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.winget--sticky{
+    position: sticky;
 }
