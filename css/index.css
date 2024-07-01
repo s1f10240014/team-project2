@@ -4,7 +4,7 @@ body {
 
 .hyoushigazo img {
     min-height: 100%;
-    background-image: /*hyousi_gazou.jpg*/;
+    background-image: url(hyousi_gazou.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
